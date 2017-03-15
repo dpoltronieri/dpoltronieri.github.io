@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
-      
-    <title>Lucas P. Corrêa</title>
+
+    <title>Daniel Poltronieri</title>
 
     <!-- Bootstrap imports -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.js"></script>
     <!-- Fullpage imports -->
-      
+
     <!-- Google Fonts API -->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Syncopate" rel="stylesheet">
     <!-- Google Fonts API -->
@@ -24,38 +25,26 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
-                anchors:['info', 'education', 'skills', 'coding', 'portfolio'],
+                anchors: ['info', 'skills', 'blizzard', 'applications', 'games'],
                 menu: '#menu'
             });
         });
     </script>
     <!-- Fullpage initialization -->
-      
-    <!-- Project descriptions -->
-    <script type="text/javascript">
-        $(document).ready (function() {
-            $('#ctpp').load("res/ctpp.txt"); 
-            $('#curriculum').load("res/curriculum.txt"); 
-            $('#yow').load("res/yow.txt"); 
-            
-            $('#systemc').load("res/systemc.txt"); 
-            $('#raster').load("res/raster.txt"); 
-            $('#pipeline').load("res/pipeline.txt"); 
-            $('#m3').load("res/m3.txt"); 
-        }) 
-    </script>
 
     <style>
         /* Syncopate */
+
         .syncopate {
-            font-family: 'Syncopate', sans-serif;
+            font-family: Verdana, sans-serif;
         }
-        
         /* Section */
+
         .section {
-            background: rgba(255, 255, 255, 1.0); 
+            background: rgba(255, 255, 255, 1.0);
             font-family: 'PT Sans', sans-serif;
         }
+
         .container {
             width: 100%;
             height: 90%;
@@ -64,26 +53,28 @@
             background: rgba(242, 242, 242, 0.7);
         }
         /* Section */
-        
         /* Row slices */
+
         .row-2 {
             height: 18%;
             margin-top: 1%;
             margin-bottom: 1%;
         }
+
         .row-3 {
             height: 31%;
             margin-top: 1%;
             margin-bottom: 1%;
         }
+
         .row-4 {
             height: 38%;
             margin-top: 1%;
             margin-bottom: 1%;
         }
         /* Row slices */
-
         /* Profile pic */
+
         #profile-pic {
             width: 200px;
             height: 200px;
@@ -93,6 +84,7 @@
             margin-bottom: 10px;
             margin-top: 10px;
         }
+
         .line {
             height: 10px;
             width: 100%;
@@ -100,77 +92,46 @@
             margin-bottom: 95px;
         }
         /* Profile pic */
-
         /* University logos */
-        .uni-logo {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            display: block;
-            margin: auto;
-        }
-        /* University logos */ 
 
-        /* Skill icons */
-        .skill-icon {
+        .uni-logo {
+            width: 120px;
+            height: 120px;
+            display: block;
+            margin: auto;
+        }
+        /* University logos */
+        /* Game panels */
+
+        .game-panel {
             width: 100px;
             height: 100px;
             display: block;
             margin: auto;
         }
-        /* Skill icons */
-        
-        /* Coding skill icons */
-        .coding-skill-icon {
-            width: 200px;
-            height: 200px;
-            display: block;
-            margin: auto;
-        }
-        /* Coding skill icons */
-        
-        /* Project panels */
-        .project-panel {
-            width: 100px;
-            height: 100px;
-            display: block;
-            margin: auto;
-        }
-        /* Project panels */
-        
+        /* Game panels */
+
         .network {
             width: 25px;
             height: 25px;
             align-content: center;
         }
-        
-        /* Finished projects subsection */
-        #finished-projects {
-            background-color: #ffffff;
-            height: 100%;
-        }
-        /* Finished projects subsection */
-        
-        /* Ongoing projects subsection */
-        #ongoing-projects {
-            background-color: #303030;
-            height: 100%;
-        }
-        /* Ongoing projects subsection */
-        
         /* Text */
+
         .center-text {
             margin: auto;
             text-align: center;
             margin-top: 10px;
             margin-bottom: 10px;
         }
+
         .justify-text {
             margin: auto;
             text-align: justify;
             margin-top: 10px;
             margin-bottom: 10px;
         }
+
         .right-text {
             margin: auto;
             text-align: right;
@@ -178,114 +139,131 @@
             margin-bottom: 10px;
         }
         /* Text */
-        
         /* Navbar */
+
         .navbar {
             width: 100%;
             height: 3%;
             background-color: #303030;
-            font-family: 'PT Sans', sans-serif;
+            font-family: Verdana, sans-serif;
             font-size: 120%;
         }
+
         .navbar a {
             display: block;
             height: 100%;
             width: 100%;
             color: #ffffff;
-            text-decoration:none
+            text-decoration: none
         }
+
         .navbar div {
             height: 100%;
         }
+
         .navbar .nav-link:hover:not(.active) {
             color: #303030;
         }
+
         .navbar .nav-item:hover:not(.active) {
             background: rgba(242, 242, 242, 1.0);
         }
+
         .active.nav-item {
             background: rgba(242, 242, 242, 1.0);
         }
+
         .active a {
             color: #303030;
         }
+
         .nav-item {
             padding: 0px;
             text-align: center;
         }
+
         .nav-link {
             padding-top: 10px;
         }
         /* Navbar */
     </style>
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <!-- Navigation buttons -->
-            <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container-fluid">
-                    <div class="row" id="menu">
-                        <div data-menuanchor="info" class="col-md-3 nav-item"><a class="nav-link" href="#info">Information</a></div>
-                        <div data-menuanchor="education" class="col-md-2 nav-item"><a class="nav-link" href="#education">Education</a></div>
-                        <div data-menuanchor="skills" class="col-md-2 nav-item"><a class="nav-link" href="#skills">Skills</a></div>
-                        <div data-menuanchor="coding" class="col-md-2 nav-item"><a class="nav-link" href="#coding">Coding</a></div>
-                        <div data-menuanchor="portfolio" class="col-md-3 nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></div>
+    <!-- Navigation buttons -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="row" id="menu">
+                <div data-menuanchor="info" class="col-md-3 nav-item"><a class="nav-link" href="#info">Information</a></div>
+                <div data-menuanchor="Skills" class="col-md-2 nav-item"><a class="nav-link" href="#skills">Skills</a></div>
+                <div data-menuanchor="Blizzard" class="col-md-2 nav-item"><a class="nav-link" href="#blizzard">Blizzard</a></div>
+                <div data-menuanchor="Applications" class="col-md-2 nav-item"><a class="nav-link" href="#applications">Applications</a></div>
+                <div data-menuanchor="Games" class="col-md-3 nav-item"><a class="nav-link" href="#games">Games</a></div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation buttons -->
+
+    <!-- Fullpage wrapper -->
+    <div id="fullpage">
+
+        <!-- General Info -->
+        <div class="section active">
+            <div class="container">
+                <div class="row" style="margin-top:30px;">
+                    <div class="col-md-5">
+                        <img class="line" src="res/line.png">
+                    </div>
+                    <div class="col-md-2">
+                        <img id="profile-pic" src="res/Picture.png">
+                    </div>
+                    <div class="col-md-5">
+                        <img class="line" src="res/line.png">
                     </div>
                 </div>
-            </nav>
-            <!-- Navigation buttons -->
-        
-        <!-- Fullpage wrapper -->
-        <div id="fullpage">
-            
-            <!-- General Info -->
-            <div class="section active">
-                <div class="container">
-                    <div class="row" style="margin-top:30px;">
-                        <div class="col-md-5">
-                            <img class="line" src="res/line.png">
+
+                <div class="row" style="margin-top:20px; margin-left:50px;">
+                    <div class="col-md-7">
+                        <div class="row right-text">
+                            <h2>Daniel Pereira Poltronieri</h2>
                         </div>
-                        <div class="col-md-2">
-                            <img id="profile-pic" src="res/profile.jpg">
+                        <div class="row right-text" style="margin-top: 30px;margin-bottom: 0px;">
+                            <h4>Challenge driven engineer.</h4>
+                            <h4 style="margin-top:10px;">Symmetra, Lucio and D.va main, preparation, agility and teamwork.</h4>
+                            <h4 style="margin-top:10px;">Symmetra, Lucio and D.va main, preparation, agility and teamwork.</h4>
                         </div>
-                        <div class="col-md-5">
-                            <img class="line" src="res/line.png">
+                        <div class="row" style="margin-top:30px; margin-right: 4px;">
+                            <a href="mailto:danppoltronieri@gmail.com"><img class="network" src="res/Gmail_Icon.png" align="right"></a>
+
+                            <a href="https://www.linkedin.com/in/daniel-poltronieri-713007138/"><img class="network" src="res/linkedin.png" align="right" style="margin-right:20px;"></a>
+
+                            <a href="https://github.com/dpoltronieri"><img class="network" src="res/github.png" align="right" style="margin-right:20px;"></a>
+
+                            <a href="https://playoverwatch.com/career/pc/us/Arashisann-1775"><img class="network" src="res/overwatch.png" align="right" style="margin-right:20px;"></a>
+
+                            <a href="http://steamcommunity.com/id/arashisann"><img class="network" src="res/steam.ico" align="right" style="margin-right:20px;"></a>
                         </div>
                     </div>
-                    
-                    <div class="row" style="margin-top:20px; margin-left:50px;">
-                        <div class="col-md-7">
-                            <div class="row right-text">
-                                <h2>Lucas P. Corrêa</h2>
-                            </div>
-                            <div class="row right-text" style="margin-top: 30px;margin-bottom: 0px;">
-                                <h4>Innovation-driven engineer.</h4>
-                                <h4 style="margin-top:10px;">Independent developer and eager creator during free time.</h4>
-                            </div>
-                            <div class="row" style="margin-top:30px; margin-right: 4px;">
-                                <a href="https://br.linkedin.com/pub/lucas-corr%C3%AAa/119/515/3b8"><img class="network" src="res/linkedin.png" align="right"></a>
-                                
-                                <a href="https://github.com/lupcorrea"><img class="network" src="res/github.png" align="right" style="margin-right:20px;"></a>
-                            </div>
-                        </div>
-                    </div> 
                 </div>
             </div>
-            <!-- General Info -->
+        </div>
+        <!-- General Info -->
 
-            <!-- Education -->
-            <div class="section">
-                <div class="container">
+        <!-- Skills -->
+        <div class="section">
+            <div class="container">
+
+                <div class="col-md-6">
                     <div class="row row-2 center-text syncopate">
-                        <h1>Education</h1>
+                        <h2>Education</h2>
                     </div>
-                    
+
                     <div class="row row-4">
                         <div class="col-md-3">
                             <img class="uni-logo" src="res/ufpb-logo.png">
                         </div>
-                        
+
                         <div class="col-md-9">
                             <div class="row row-3">
                                 <h3>Bachelor's</h3>
@@ -294,175 +272,335 @@
                                 <h4>Computer Engineering - Federal University of Paraíba</h4>
                             </div>
                             <div class="row row-3">
-                                <p><b>Status:</b> In course, 72% complete</p>
+                                <p><b>Status:</b> In course, 82% complete</p>
                             </div>
                         </div>
                     </div>
-                    
+
+                    <div class="row row-2 center-text syncopate">
+                        <h2>Experience</h2>
+                    </div>
+
                     <div class="row row-4">
                         <div class="col-md-3">
-                            <img class="uni-logo" src="res/kth-logo.jpg">
+                            <img class="uni-logo" src="res/ufpb-logo.png">
                         </div>
-                        
+
                         <div class="col-md-9">
                             <div class="row row-3">
-                                <h3>Master's</h3>
+                                <h3>Teacher Assistant</h3>
                             </div>
                             <div class="row row-3">
-                                <h4>Human-Computer Interaction & Design - Kungliga Tekniska Högskolan</h4>
+                                <h4>Federal University of Paraíba</h4>
                             </div>
                             <div class="row row-3">
-                                <p><b>Status:</b> Paused, 50% complete</p>
+                                <p><b>Time:</b> Feb 2014 - Dec 2015 </p>
                             </div>
                         </div>
                     </div>
+
+                    <div class="row row-4">
+                        <div class="col-md-3">
+                            <img class="uni-logo" src="res/ohmi.png">
+                        </div>
+
+                        <div class="col-md-9">
+                            <div class="row row-3">
+                                <h3>Owner</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>Ohmi! - Electronic Components</h4>
+                            </div>
+                            <div class="row row-3">
+                                <p><b>Time:</b> Aug 2016 - Now </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row row-2 center-text syncopate">
+                        <h2>Why me?</h2>
+                    </div>
+                    <div class="row row-4">
+                        <div class="row right-text" style="margin-right: 50px;">
+                            <div class="row row-3">
+                                <h3>Motivated</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>
+                                  Working as fresh as I am, with learning chances every day and working with what I love to provide people with better experiences is in itself a great motivator.
+                                </h4>
+                                <h4>
+                                  Doing that at Blizzard is a dream.
+                                </h4>
+                            </div>
+                            <div class="row row-3">
+                                <h3>Creative</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>
+                                  I have many hobbys, I like to do stuff and create stuff. Be it collecting, playing games or develloping personal projects, I have endless coriosity and drive.
+                                  </h4>
+                            </div>
+                            <div class="row row-3">
+                                <h3>Eager to learn</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>
+                              This is actually my first HTML web page, but nothing could stop me from trying to get the best first impression I could.
+                              I had to learn fast to conquer my Degree, and I still do.
+                              </h4>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <!-- Education -->
-
-            <!-- General Skills -->
-            <div class="section">
-                <div class="container">
-                    <div class="row row-2 center-text syncopate">
-                        <h1>General Skills</h1>
-                    </div>
-                    
-                    <div class="row" style="height:75%;">
-                        <div class="row" style="height:33%;">
-                            <div class="col-md-6">
-                                <figure>
-                                    <img src="res/coding.png" class="skill-icon">
-                                    <figcaption><h4 class="center-text">Coding</h4></figcaption>
-                                </figure>
-                            </div>
-                            <div class="col-md-6">
-                                <figure>
-                                    <img src="res/ux-design.png" class="skill-icon">
-                                    <figcaption><h4 class="center-text">UX Design</h4></figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                        
-                        <div class="row" style="height:33%;">
-                            <div class="col-md-6">
-                                <figure>
-                                    <img src="res/leadership.png" class="skill-icon">
-                                    <figcaption><h4 class="center-text">Leadership</h4></figcaption>
-                                </figure>
-                            </div>
-                            <div class="col-md-6">
-                                <figure>
-                                    <img src="res/project-management.png" class="skill-icon">
-                                    <figcaption><h4 class="center-text">Project Management</h4></figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                        
-                        <div class="row" style="height:33%;">
-                            <div class="col-md-6">
-                                <figure>
-                                    <img src="res/innovation-development.png" class="skill-icon">
-                                    <figcaption><h4 class="center-text">Innovation Development</h4></figcaption>
-                                </figure>
-                            </div>
-                            <div class="col-md-6">
-                                <figure>
-                                    <img src="res/electronics.png" class="skill-icon">
-                                    <figcaption><h4 class="center-text">Electronics</h4></figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                </div>
-            </div>
-            <!-- General Skills -->
-
-            <!-- Coding Skills -->
-            <div class="section">
-                <div class="container">
-                    <div class="row row-2 center-text syncopate">
-                        <h1>Coding Skills</h1>
-                    </div>
-                    
-                    <div class="row" style="height:75%;">
-                        <div class="row" style="height:50%;">
-                            <div class="col-md-6">
-                                <img src="res/ccpp.png" class="coding-skill-icon">
-                            </div>
-                            <div class="col-md-6">
-                                <img src="res/asm.png" class="coding-skill-icon">
-                            </div>
-                        </div>
-                        
-                        <div class="row" style="height:50%;">
-                            <div class="col-md-6">
-                                <img src="res/android.png" class="coding-skill-icon">
-                            </div>
-                            <div class="col-md-6">
-                                <img src="res/web.png" class="coding-skill-icon">
-                            </div>
-                        </div>
-                    </div> 
-                    
-                </div>
-            </div>
-            <!-- Coding Skills -->
-
-            <!-- Projects -->
-            <div class="section">
-                <div class="container">
-                    <div class="row row-2 center-text syncopate">
-                        <h1>Portfolio</h1>
-                    </div>
-                    
-                    <div class="row" style="height:75%;">
-                        <!-- Ongoing Projects -->
-                        <div class="col-md-6" id="ongoing-projects">
-                            <div class="row center-text" style=""><h4 style="color:white;"><b>Ongoing Projects</b></h4></div>
-                            <div class="row">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <a href="https://github.com/lupcorrea/chess-tactics" class="project-panel"><img class="project-panel" src="res/ct++.png"></a>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <a href="https://github.com/lupcorrea/lupcorrea.github.io" class="project-panel"><img class="project-panel" src="res/curriculum.png"></a>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <a href="" class="project-panel"><img class="project-panel" src="res/yow.png"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Ongoing Projects -->
-                        
-                        <!-- Finished Projects -->
-                        <div class="col-md-6" id="finished-projects">
-                            <div class="row center-text"><h4><b>Finished Projects</b></h4></div>
-                            <div class="row">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <a href="https://github.com/search?utf8=✓&q=topic%3Asystemc+user%3Alupcorrea&type=Repositories&ref=advsearch&l=&l=" class="project-panel"><img class="project-panel" src="res/systemc.png"></a>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <a href="https://github.com/lupcorrea/raster-project" class="project-panel"><img class="project-panel" src="res/rasteriser.png"></a>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <a href="https://github.com/lupcorrea/cg-pipeline" class="project-panel"><img class="project-panel" src="res/cg-pipeline.png"></a>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <a href="https://github.com/lupcorrea/MyMovieManager" class="project-panel"><img class="project-panel" src="res/m3.png"></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Finished Projects -->
-                    </div>
-            </div>
-            <!-- Projects -->
-
         </div>
-        <!-- Fullpage wrapper -->
-    </body>
+        <!-- Skills -->
+
+        <!-- General Skills -->
+        <div class="section">
+            <div class="container">
+
+                <div class="col-md-6">
+                    <div class="row row-2 center-text syncopate">
+                        <h2>Why Blizzard?</h2>
+                    </div>
+                    <div class="row row-4">
+                        <div class="row left-text" style="margin-right: 20px;margin-left: 50px;">
+                            <div class="row row-3">
+                                <h3>Challenge</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>
+                                  You are a big company, understanding and improving your systems is a constant and fluid experience, I won't need to search for new challenges whe they keep comming at me.
+                                </h4>
+                                <h4>
+                                  And I keep surpassing them.
+                                </h4>
+                                <h4>
+                                  This is actually my first HTML web page, but nothing could stop me from trying to get the best first impression I could.
+                                  I had to learn fast to conquer my Degree, and I still do.
+                                </h4>
+                            </div>
+                            <div class="row row-3">
+                                <h3>Games meh</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>
+                                  Making games is a gamer's dream, I will go above and beyond to make that happen.
+                                  Having both acess to all games and the possobility to
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left Column -->
+
+                <!-- Right Column -->
+                <div class="col-md-6">
+                    <div class="row row-4">
+                        <div class="row right-text" style="margin-right: 50px;margin-left: 20px;">
+                            <div class="row row-3">
+                                <h3>Senior Software Engineer, Tools</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>
+                            Commimng from embedded systems, I know how important eficiency and having the right tools is. From project management I got the tools. Classic games will always be a fond memory, and being able to work to bring those to the newer generation
+                            in a legal and hassle free way is a great motivator.
+                          </h4>
+                            </div>
+                            <div class="row row-3">
+                                <h3>Senior Software Engineer, Automation</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>
+                        This is actually my first HTML web page, but nothing could stop me from trying to get the best first impression I could.
+                        I had to learn fast to conquer my Degree, and I still do.
+                        </h4>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- General Skills -->
+
+        <!-- Applications -->
+        <div class="section">
+            <div class="container">
+
+                <div class="col-md-6">
+                    <div class="row row-2 center-text syncopate">
+                        <h2>So many applications!</h2>
+                    </div>
+                    <div class="row row-4">
+                        <div class="row left-text" style="margin-left: 50px; margin-right: 20px;">
+                            <div class="row row-2">
+                                <h3>Software Engineer, Gameplay</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>
+                              I know how good WoW gameplay is, and I have played plenty of Ragnarok, Tabletop RPGs and offline open world games to bring new ideas to the table and continue growing existing ideas.
+                              This is the perfect job for me, since I did mainly project management throught university and jams and love interdisciplinary teams, and what I lack in experience, I can make up in effort.
+                            </h4>
+                            </div>
+                            <div class="row row-2">
+                                <h3>Associate Software Engineer, Engineering Systems</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>
+                        Although my languages may not be the same, I know the concepts and principles, with esperience in other languages, learning a new one isn't a real barrier. This being an entry position is reason to strive to grow into a higher position and help the next person following my track.
+                        </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="row row-2 center-text syncopate">
+                        <h2>Aiming High</h2>
+                    </div>
+                    <div class="row row-4">
+                        <div class="row right-text" style="margin-right: 50px;margin-left: 20px;">
+                            <div class="row row-2">
+                                <h3>Senior Software Engineer, Tools</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>
+                            Commimng from embedded systems, I know how important eficiency and having the right tools is. From project management I got the tools. Classic games will always be a fond memory, and being able to work to bring those to the newer generation
+                            in a legal and hassle free way is a great motivator.
+                          </h4>
+                            </div>
+                            <div class="row row-2">
+                                <h3>Senior Software Engineer, Automation</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>
+                        This is actually my first HTML web page, but nothing could stop me from trying to get the best first impression I could.
+                        I had to learn fast to conquer my Degree, and I still do.
+                        </h4>
+                            </div>
+                            <div class="row row-3">
+                                <h3>
+                        Talk to me, maybe as associate in one of the above positions!
+                      </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <!-- Applications -->
+
+        <!-- Games -->
+        <div class="section">
+            <div class="container">
+                <!-- Left Row -->
+                <div class="col-md-6">
+                    <div class="row row-2 center-text syncopate">
+                        <h2>Current Games</h2>
+                    </div>
+                    <div class="row row-4">
+                        <div class="col-md-3">
+                            <img class="game-panel" src="res/overwatch.png">
+                        </div>
+
+                        <div class="col-md-9">
+                            <div class="row row-3">
+                                <h3>Overwatch</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>47 hours played</h4>
+                            </div>
+                            <div class="row row-3">
+                                <p><b>Favourite part:</b> The perfect imbalance of the characters leading to quick adaptation of the team. Sometimes... </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-4">
+                        <div class="col-md-3">
+                            <img class="game-panel" src="res/MTG.png">
+                        </div>
+
+                        <div class="col-md-9">
+                            <div class="row row-3">
+                                <h3>Magic: The Gathering</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>Playing for 8 years</h4>
+                            </div>
+                            <div class="row row-3">
+                                <p><b>Favourite part:</b> Creating decks, tribal, budget, fun, anything. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-4">
+                        <div class="col-md-3">
+                            <img class="game-panel" src="res/Tabletop.png">
+                        </div>
+
+                        <div class="col-md-9">
+                            <div class="row row-3">
+                                <h3>Tabletop RPG</h3>
+                            </div>
+                            <div class="row row-3">
+                                <h4>A lot</h4>
+                            </div>
+                            <div class="row row-3">
+                                <p><b>Systems Played:</b> D&D 3.5, 4.0, Pathfinder, World of Darkness, 3D&T </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left Row -->
+
+                <!-- Right Row -->
+                <div class="col-md-6">
+                    <div class="row row-2 center-text syncopate">
+                        <h2>Other Games</h2>
+                    </div>
+                    <div class="row right-text" style="margin-right: 50px;margin-left: 20px;">
+                        <h3><a href="http://globalgamejam.org/2017/games/contra-undum">Contra Undum </a></h3>
+
+                        <h4>Developed in 48 hours straight.</h4>
+                        <p>
+                            Developed in the 2017 Global Game Jam with a team of five people.
+                        </p>
+
+                        <h3>World of Warcraft</h3>
+                        <h4>Indefinite time</h4>
+                        <p>
+                            I played a lot of WoW during high school, before i got really interested in game design.
+                        </p>
+
+                        <h3>Ragnarok Online</h3>
+                        <h4>Indefinite time</h4>
+                        <p>
+                            PLaying Ragnarok before and after I learned about game design, led me to learn how the game ticks. It shows how diverse a playerbase can be and what keeps players invested.
+                        </p>
+
+                        <h3>Open World</h3>
+                        <h4>Assassins Creed: arround 150 hours</h4>
+                        <h4>Dark Souls I: 126 Hours, II: 60 Hours</h4>
+                        <h4>Horizon Zero Dawn: 8 Hours</h4>
+
+                    </div>
+                </div>
+                <!-- Right Row -->
+
+            </div>
+            <!-- Fullpage wrapper -->
+</body>
+
 </html>
