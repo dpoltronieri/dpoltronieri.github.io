@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: pt-br # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🐴 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://dpoltronieri.github.io # the base hostname & protocol for your site
@@ -192,6 +192,12 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _news/announcement_*.md
+  - _pages/blog.md
+  - _posts/
+  - _projects/?_project.md
+  - assets/jupyter/blog.ipynb
+  - _pages/projects.md
 keep_files:
   - CNAME
   - .nojekyll
