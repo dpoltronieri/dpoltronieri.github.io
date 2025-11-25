@@ -23,7 +23,7 @@
   contents:
     - title: Product Manager
       institution: VNCS
-      year: Mar 2025 - Presente
+      year: 03/2025 - Presente
       description:
         - Desenvolvimento de plataforma de e-commerce para operações de alta escala (+200k vendas/mês), focada na reconstrução da experiência de gestão de loja e checkout.
         - Condução de discovery contínuo através de entrevistas com lojistas em diversos níveis hierárquicos para otimizar (streamline) o modelo de negócio.
@@ -32,7 +32,7 @@
 
     - title: Product Owner (Consultoria)
       institution: Brivia
-      year: Fev 2025 - Abr 2025
+      year: 02/2025 - 04/2025
       description:
         - Consultoria de treinamento para Product Owners em ferramentas de Inteligência Artificial, focada na otimização da escrita de requisitos para fábricas de software externas.
         - Implementação de critérios de aceite no padrão Gherkin, resultando em uma redução de 80% na taxa de solicitações de mudanças (Change Requests) durante a fase de homologação.
@@ -40,7 +40,7 @@
 
     - title: Coordenador de Produto e Qualidade
       institution: Prosas
-      year: Fev 2024 - Out 2024
+      year: 02/2024 - 10/2024
       description:
         - Estruturação da área de Produto e Qualidade durante fase de scale-up.
         - Liderança e treinamento de equipe multidisciplinar (Suporte N2, QA, PO Assistente).
@@ -49,7 +49,7 @@
 
     - title: Product Manager
       institution: Adoorei
-      year: Nov 2022 - Fev 2024
+      year: 11/2022 - 02/2024
       description:
         - Liderança de crescimento pós-lançamento, entregando 2 MVPs mensais com validação baseada em métricas.
         - Manutenção de crescimento mensal de 20% na base de clientes e churn controlado em 10%.
@@ -57,28 +57,28 @@
 
     - title: Product Manager
       institution: Futuro Consultoria Financeira
-      year: Ago 2021 - Out 2022
+      year: 08/2021 - 10/2022
       description:
         - Gestão de tecnologia e desenvolvimento de plataforma interna que permitiu escalar o time comercial de 40 para 110 pessoas sem expandir a diretoria.
         - Aumento de 50-100% na carteira individual da equipe comercial através de otimizações focadas no usuário.
 
     - title: Product Manager
       institution: HiveCloud
-      year: Set 2020 - Ago 2021
+      year: 09/2020 - 08/2021
       description:
         - Entrega antecipada de roadmap anual (em 11 meses) sem comprometer a qualidade.
         - Liderança na reescrita de front-end de sistema legado com foco total em experiência do cliente (CX).
 
     - title: Product Owner
       institution: DOCK
-      year: Nov 2019 - Set 2020
+      year: 11/2019 - 09/2020
       description:
         - Evolução de ferramenta regulatória para um dashboard contábil escalável para clientes.
         - Gestão de expectativas de stakeholders em ambiente de alta exigência (padrões bancários).
 
     - title: Software Engineer
       institution: DOCK
-      year: Fev 2018 - Nov 2019
+      year: 02/2018 - 11/2019
       description:
         - Desenvolvimento de microsserviços (Java 8, Spring Boot) e modernização de legado.
         - Criação de ferramenta de relatórios regulatórios (BACEN) com Java 11 e Spring Cloud.
@@ -88,7 +88,7 @@
   contents:
     - title: <a href="https://github.com/dpoltronieri/TalesTools" target="_blank">TalesTools</a>
       institution: Maintainer
-      year: 2024 - Presente
+      year: 2025 - Presente
       description:
         - Ferramenta de automação e assistente de jogo (QoL) desenvolvida em C# para otimização de gameplay em MMORPGs.
         - Implementação de sistema de macros complexos, gerenciamento de estados de buffs e troca automática de equipamentos (Auto-Switch).
@@ -99,15 +99,22 @@
   contents:
     - title: MBA em Gerência de Projetos
       institution: UNIPE
-      year: Dez 2019
+      year: 2019
+      description:
+        - Especialização em metodologias ágeis e liderança estratégica de equipes multidisciplinares.
+        - Foco na gestão de riscos e alinhamento entre objetivos de negócio e execução técnica.
+        - Cobertura de metodologias tradicionais e ágeis conforme a versão mais recente do PMBOK.
     - title: Engenharia da Computação
       institution: UFPB
-      year: Nov 2017
+      year: 2017
+      description:
+        - Sólida base em engenharia de software, arquitetura de sistemas e algoritmos.
+        - Capacidade técnica para dialogar profundamente com times de desenvolvimento e avaliar viabilidade de soluções.
 
 - title: Competências
   type: list
   contents:
-    - <b>Hard Skills:</b> Gestão de Produtos, Agile (Scrum/Kanban), B2B, Lean, SQL, New Relic, Java/Spring, Gherkin/BDD, AI Tools.
+    - <b>Hard Skills:</b> Gestão de Produtos, Agile (Scrum/Kanban), B2B, Lean, SQL, New Relic, Java/Spring, Gherkin/BDD, AI Tools (Gemini).
     - <b>Soft Skills:</b> Liderança, Negociação, Estratégia, Orientação a Resultados, Mentoria.
     - <b>Idiomas:</b> Português (Nativo), Inglês (Avançado).
 
@@ -117,4 +124,4 @@
     - <b>Fotografia:</b> Natureza, teatro e retrato.
     - <b>Música:</b> Violão clássico e guitarra.
     - <b>Literatura:</b> Literatura moderna (Lord of Mysteries, Frieren, To Your Eternity, Mob Psycho 100).
-    - <b>RPG:</b> Narrador de Mago: A Ascensão (campanha com temas de história alternativa).
+    - <b>RPG:</b> Narrador de Mago, A Ascensão (campanha com temas de história alternativa).
